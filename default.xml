@@ -7,8 +7,7 @@
            revision="refs/tags/android-5.1.1_r3" />
 
   <remote  name="github"
-           fetch="https://github.com"
-            />
+           fetch="https://github.com" />
 
   <remote  name="blobs"
            fetch="https://github.com/TheMuppets" />
@@ -23,8 +22,6 @@
   </project>
 
   <project path="manifest" name="MerkMod/manifest" />
-  <project path="aospal" name="MerkMod/aospal" revision="master" />
-
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" remote="aosp" />
   <project path="art" name="MerkMod/android_art" groups="pdk" />
   <project path="bionic" name="MerkMod/android_bionic" groups="pdk" />
