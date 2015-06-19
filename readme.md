@@ -1,4 +1,4 @@
-# ParanoidAndroid #
+# MERKMOD #
 
 ## Working on translations ##
 
@@ -31,7 +31,7 @@ $ cd WORKSPACE
 
 # Install Repo in the created directory
 # Use a real name/email combination, if you intend to submit patches
-$ repo init -u https://github.com/merkmod/manifest -b lp5.1
+$ repo init -u https://github.com/MerkMod/manifest -b lp5.1
 ```
 
 ### Downloading the source tree ###
