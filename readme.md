@@ -1,7 +1,5 @@
 # MERKMOD #
 
-## Working on translations ##
-
 ## Grabbing the source ##
 
 [Repo](http://source.android.com/source/developing.html) is a tool provided by Google that
