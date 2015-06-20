@@ -66,6 +66,8 @@ $ repo sync PROJECT
 $ .build/envsetup.sh
 
 $ breakfast your_device_name
+
+
 $ brunch your_device_name
 
 
