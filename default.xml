@@ -417,7 +417,7 @@
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" remote="aosp" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" remote="aosp" />
   <project path="packages/apps/Settings" name="Metallium/android_packages_apps_Settings" />
-  <project path="packages/apps/Settings" name="Metallium/android_packages_apps_SetupWizard" />
+ <!---for now this is unnecessary <project path="packages/apps/Settings" name="Metallium/android_packages_apps_SetupWizard" /> --->
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" remote="aosp" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" remote="aosp" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" remote="aosp" />
