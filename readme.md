@@ -55,7 +55,7 @@ a large change that spans across multiple projects.
 ```bash
 # Specify one or more projects by either name or path
 
-# For example, enter MerkMod/android_frameworks_base or
+# For example, enter Metallium-ROM/android_frameworks_base or
 # frameworks/base to sync the frameworks/base repository
 
 $ repo sync PROJECT
