@@ -10,7 +10,7 @@
            fetch="https://github.com" />
 
   <remote  name="blobs"
-           fetch="https://github.com/PupPeople" />
+           fetch="https://github.com/TheMuppets" />
 
   <default revision="refs/heads/lp5.1"
            remote="github"
