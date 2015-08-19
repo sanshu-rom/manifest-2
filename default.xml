@@ -10,7 +10,7 @@
            fetch="https://github.com" />
 
   <remote  name="blobs"
-           fetch="https://github.com/TheMuppets" />
+           fetch="https://github.com/PupPeople" />
 
   <default revision="refs/heads/lp5.1"
            remote="github"
@@ -351,35 +351,35 @@
   <project path="hardware/libhardware_legacy" name="Metallium-ROM/android_hardware_libhardware_legacy" groups="pdk" />
   <project path="hardware/nvidia/audio" name="platform/hardware/nvidia/audio" groups="nvidia_audio" remote="aosp" />
   <project path="hardware/nvidia/tegra124" name="platform/hardware/nvidia/tegra124" groups="tegra124" remote="aosp" />
-  <project path="hardware/qcom/audio/default" name="AOSPA-L/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="lollipop-mr1" />
-  <project path="hardware/qcom/audio-caf/msm8960" name="AOSPA-L/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="lollipop-mr1-caf-8960" />
-  <project path="hardware/qcom/audio-caf/msm8226" name="AOSPA-L/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="lollipop-mr1-caf-8226" />
-  <project path="hardware/qcom/audio-caf/msm8610" name="AOSPA-L/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="lollipop-mr1-caf-8610" />
-  <project path="hardware/qcom/audio-caf/msm8974" name="AOSPA-L/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="lollipop-mr1-caf-8974" />
-  <project path="hardware/qcom/audio-caf/msm8916" name="AOSPA-L/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="lollipop-mr1-caf-8916" />
-  <project path="hardware/qcom/bt" name="AOSPA-L/android_hardware_qcom_bt" groups="qcom" revision="lollipop-mr1" />
-  <project path="hardware/qcom/display" name="AOSPA-L/android_hardware_qcom_display" groups="qcom,qcom_display" revision="lollipop-mr1" />
-  <project path="hardware/qcom/display-caf/msm8960" name="AOSPA-L/android_hardware_qcom_display" groups="qcom,qcom_display" revision="lollipop-mr1-caf-8960" />
-  <project path="hardware/qcom/display-caf/msm8226" name="AOSPA-L/android_hardware_qcom_display" groups="qcom,qcom_display" revision="lollipop-mr1-caf-8226" />
-  <project path="hardware/qcom/display-caf/msm8610" name="AOSPA-L/android_hardware_qcom_display" groups="qcom,qcom_display" revision="lollipop-mr1-caf-8610" />
-  <project path="hardware/qcom/display-caf/msm8974" name="AOSPA-L/android_hardware_qcom_display" groups="qcom,qcom_display" revision="lollipop-mr1-caf-8974" />
-  <project path="hardware/qcom/display-caf/msm8916" name="AOSPA-L/android_hardware_qcom_display" groups="qcom,qcom_display" revision="lollipop-mr1-caf-8916" />
-  <project path="hardware/qcom/gps" name="AOSPA-L/android_hardware_qcom_gps" groups="qcom" revision="lollipop-mr1" />
-  <project path="hardware/qcom/keymaster" name="AOSPA-L/android_hardware_qcom_keymaster" groups="qcom" revision="lollipop-mr1" />
-  <project path="hardware/qcom/media/default" name="AOSPA-L/android_hardware_qcom_media" groups="qcom" revision="lollipop-mr1" />
-  <project path="hardware/qcom/media-caf/msm8960" name="AOSPA-L/android_hardware_qcom_media" groups="qcom" revision="lollipop-mr1-caf-8960" />
-  <project path="hardware/qcom/media-caf/msm8226" name="AOSPA-L/android_hardware_qcom_media" groups="qcom" revision="lollipop-mr1-caf-8226" />
-  <project path="hardware/qcom/media-caf/msm8610" name="AOSPA-L/android_hardware_qcom_media" groups="qcom" revision="lollipop-mr1-caf-8610" />
-  <project path="hardware/qcom/media-caf/msm8974" name="AOSPA-L/android_hardware_qcom_media" groups="qcom" revision="lollipop-mr1-caf-8974" />
-  <project path="hardware/qcom/media-caf/msm8916" name="AOSPA-L/android_hardware_qcom_media" groups="qcom" revision="lollipop-mr1-caf-8916" />
+  <project path="hardware/qcom/audio/default" name="Metallium-ROM/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="lp5.1" />
+  <project path="hardware/qcom/audio-caf/msm8960" name="Metallium-ROM/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="lp5.1-caf-8960" />
+  <project path="hardware/qcom/audio-caf/msm8226" name="Metallium-ROM/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="lp5.1-caf-8226" />
+  <project path="hardware/qcom/audio-caf/msm8610" name="Metallium-ROM/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="lp5.1-caf-8610" />
+  <project path="hardware/qcom/audio-caf/msm8974" name="Metallium-ROM/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="lp5.1-caf-8974" />
+  <project path="hardware/qcom/audio-caf/msm8916" name="Metallium-ROM/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="lp5.1-caf-8916" />
+  <project path="hardware/qcom/bt" name="Metallium-ROM/android_hardware_qcom_bt" groups="qcom" revision="lp5.1" />
+  <project path="hardware/qcom/display" name="Metallium-ROM/android_hardware_qcom_display" groups="qcom,qcom_display" revision="lp5.1" />
+  <project path="hardware/qcom/display-caf/msm8960" name="Metallium-ROM/android_hardware_qcom_display" groups="qcom,qcom_display" revision="lp5.1-caf-8960" />
+  <project path="hardware/qcom/display-caf/msm8226" name="Metallium-ROM/android_hardware_qcom_display" groups="qcom,qcom_display" revision="lp5.1-caf-8226" />
+  <project path="hardware/qcom/display-caf/msm8610" name="Metallium-ROM/android_hardware_qcom_display" groups="qcom,qcom_display" revision="lp5.1-caf-8610" />
+  <project path="hardware/qcom/display-caf/msm8974" name="Metallium-ROM/android_hardware_qcom_display" groups="qcom,qcom_display" revision="lp5.1-caf-8974" />
+  <project path="hardware/qcom/display-caf/msm8916" name="Metallium-ROM/android_hardware_qcom_display" groups="qcom,qcom_display" revision="lp5.1-caf-8916" />
+  <project path="hardware/qcom/gps" name="Metallium-ROM/android_hardware_qcom_gps" groups="qcom" revision="lp5.1" />
+  <project path="hardware/qcom/keymaster" name="Metallium-ROM/android_hardware_qcom_keymaster" groups="qcom" revision="lp5.1" />
+  <project path="hardware/qcom/media/default" name="Metallium-ROM/android_hardware_qcom_media" groups="qcom" revision="lp5.1" />
+  <project path="hardware/qcom/media-caf/msm8960" name="Metallium-ROM/android_hardware_qcom_media" groups="qcom" revision="lp5.1-caf-8960" />
+  <project path="hardware/qcom/media-caf/msm8226" name="Metallium-ROM/android_hardware_qcom_media" groups="qcom" revision="lp5.1-caf-8226" />
+  <project path="hardware/qcom/media-caf/msm8610" name="Metallium-ROM/android_hardware_qcom_media" groups="qcom" revision="lp5.1-caf-8610" />
+  <project path="hardware/qcom/media-caf/msm8974" name="Metallium-ROM/android_hardware_qcom_media" groups="qcom" revision="lp5.1-caf-8974" />
+  <project path="hardware/qcom/media-caf/msm8916" name="Metallium-ROM/android_hardware_qcom_media" groups="qcom" revision="lp5.1-caf-8916" />
   <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" groups="qcom_msm8960" remote="aosp" />
   <project path="hardware/qcom/msm8x26" name="platform/hardware/qcom/msm8x26" groups="qcom_msm8x26" remote="aosp" />
   <project path="hardware/qcom/msm8x27" name="platform/hardware/qcom/msm8x27" groups="qcom_msm8x27" remote="aosp" />
   <project path="hardware/qcom/msm8x74" name="platform/hardware/qcom/msm8x74" groups="qcom_msm8x74" remote="aosp" />
   <project path="hardware/qcom/msm8x84" name="platform/hardware/qcom/msm8x84" groups="qcom_msm8x84" remote="aosp" />
-  <project path="hardware/qcom/wlan" name="AOSPA-L/android_hardware_qcom_wlan" groups="qcom_wlan" revision="lollipop-mr1" />
-  <project path="hardware/ril" name="AOSPA-L/android_hardware_ril" groups="pdk" revision="lollipop-mr1" />
-  <project path="hardware/ril-caf" name="AOSPA-L/android_hardware_ril" groups="pdk" revision="lollipop-mr1-caf" />
+  <project path="hardware/qcom/wlan" name="Metallium-ROM/android_hardware_qcom_wlan" groups="qcom_wlan" revision="lp5.1" />
+  <project path="hardware/ril" name="Metallium-ROM/android_hardware_ril" groups="pdk" revision="lp5.1" />
+  <project path="hardware/ril-caf" name="Metallium-ROM/android_hardware_ril" groups="pdk" revision="lp5.1-caf" />
   <project path="hardware/samsung_slsi/exynos5" name="platform/hardware/samsung_slsi/exynos5" groups="exynos5" remote="aosp" />
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" groups="omap3" remote="aosp" />
   <project path="hardware/ti/omap4-aah" name="platform/hardware/ti/omap4-aah" groups="omap4-aah" remote="aosp" />
