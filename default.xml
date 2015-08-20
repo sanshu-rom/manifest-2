@@ -68,7 +68,7 @@
   <project path="external/arduino" name="platform/external/arduino" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/bison" name="platform/external/bison" groups="pdk" remote="aosp" />
   <project path="external/blktrace" name="platform/external/blktrace" groups="pdk-cw-fs" remote="aosp" />
-  <project path="external/bluetooth/bluedroid" name="CyanogenMod/android_external_bluetooth_bluedroid" groups="pdk" revision="cm-12.1" />
+  <project path="external/bluetooth/bluedroid" name="Metallium-ROM/android_external_bluetooth_bluedroid" groups="pdk" revision="lp5.1" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" groups="pdk" remote="aosp" />
   <project path="external/bsdiff" name="platform/external/bsdiff" groups="pdk" remote="aosp" />
   <project path="external/busybox" name="CyanogenMod/android_external_busybox" revision="cm-12.1" />
@@ -138,13 +138,13 @@
   <project path="external/flac" name="CyanogenMod/android_external_flac" groups="pdk" revision="cm-12.1" />
   <project path="external/fonttools" name="platform/external/fonttools" remote="aosp" />
   <project path="external/freetype" name="platform/external/freetype" groups="pdk" remote="aosp" revision="refs/tags/android-m-preview-1" />
-  <project path="external/fsck_msdos" name="CyanogenMod/android_external_fsck_msdos" groups="pdk-cw-fs" revision="cm-12.1" />
+  <project path="external/fsck_msdos" name="Metallium-ROM/android_external_fsck_msdos" groups="pdk-cw-fs" revision="lp5.1" />
   <project path="external/fuse" name="CyanogenMod/android_external_fuse" groups="pdk" revision="cm-12.1" />
   <project path="external/gcc-demangle" name="platform/external/gcc-demangle" groups="pdk" remote="aosp" />
   <project path="external/genext2fs" name="platform/external/genext2fs" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/giflib" name="platform/external/giflib" groups="pdk-cw-fs,qcom_msm8x26" remote="aosp" />
   <project path="external/glide" name="platform/external/glide" remote="aosp" />
-  <project path="external/google" name="CyanogenMod/android_external_google" groups="pdk-cw-fs" revision="cm-12.1" />
+  <project path="external/google" name="Metallium-ROM/android_external_google" groups="pdk-cw-fs" revision="lp5.1" />
   <project path="external/google-diff-match-patch" name="platform/external/google-diff-match-patch" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/google-fonts/coming-soon" name="platform/external/google-fonts/coming-soon" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/google-fonts/dancing-script" name="platform/external/google-fonts/dancing-script" groups="pdk-cw-fs" remote="aosp" />
@@ -186,8 +186,8 @@
   <project path="external/libgsm" name="platform/external/libgsm" groups="pdk" remote="aosp" />
   <project path="external/liblzf" name="platform/external/liblzf" groups="pdk" remote="aosp" />
   <project path="external/libmtp" name="platform/external/libmtp" groups="pdk-cw-fs" remote="aosp" />
-  <project path="external/libnfc-nci" name="CyanogenMod/android_external_libnfc-nci" groups="pdk" revision="cm-12.1" />
-  <project path="external/libnfc-nxp" name="CyanogenMod/android_external_libnfc-nxp" groups="pdk" revision="cm-12.1" />
+  <project path="external/libnfc-nci" name="Metallium-ROM/android_external_libnfc-nci" groups="pdk" revision="lp5.1" />
+  <project path="external/libnfc-nxp" name="Metallium-ROM/android_external_libnfc-nxp" groups="pdk" revision="lp5.1" />
   <project path="external/libnl" name="platform/external/libnl" groups="pdk" remote="aosp" />
   <project path="external/libogg" name="platform/external/libogg" groups="pdk" remote="aosp" />
   <project path="external/libopus" name="platform/external/libopus" groups="pdk" remote="aosp" />
@@ -330,8 +330,8 @@
   <project path="frameworks/webview" name="platform/frameworks/webview" groups="pdk-cw-fs" remote="aosp" />
   <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" groups="pdk-cw-fs" remote="aosp" />
   <project path="hardware/akm" name="platform/hardware/akm" remote="aosp" />
-  <project path="hardware/broadcom/libbt" name="CyanogenMod/android_hardware_broadcom_libbt" groups="pdk" revision="cm-12.1" />
-  <project path="hardware/broadcom/wlan" name="CyanogenMod/android_hardware_broadcom_wlan" groups="broadcom_wlan" revision="cm-12.1" />
+  <project path="hardware/broadcom/libbt" name="Metallium-ROM/android_hardware_broadcom_libbt" groups="pdk" revision="lp5.1" />
+  <project path="hardware/broadcom/wlan" name="Metallium-ROM/android_hardware_broadcom_wlan" groups="broadcom_wlan" revision="lp5.1" />
   <project path="hardware/cm" name="CyanogenMod/android_hardware_cm" revision="cm-12.1" />
   <project path="hardware/intel/audio_media" name="platform/hardware/intel/audio_media" groups="intel" remote="aosp" />
   <project path="hardware/intel/bootstub" name="platform/hardware/intel/bootstub" groups="intel" remote="aosp" />
@@ -349,30 +349,30 @@
   <project path="hardware/intel/img/psb_video" name="platform/hardware/intel/img/psb_video" groups="intel" remote="aosp" />
   <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense" remote="aosp" />
   <project path="hardware/libhardware" name="Metallium-ROM/android_hardware_libhardware" groups="pdk" revision="lp5.1" />
-  <project path="hardware/libhardware_legacy" name="CyanogenMod/android_hardware_libhardware_legacy" groups="pdk" revision="cm-12.1" />
+  <project path="hardware/libhardware_legacy" name="Metallium-ROM/android_hardware_libhardware_legacy" groups="pdk" revision="lp5.1" />
   <project path="hardware/nvidia/audio" name="platform/hardware/nvidia/audio" groups="nvidia_audio" remote="aosp" />
   <project path="hardware/nvidia/tegra124" name="platform/hardware/nvidia/tegra124" groups="tegra124" remote="aosp" />
-  <project path="hardware/qcom/audio/default" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="cm-12.1" />
-  <project path="hardware/qcom/audio-caf/msm8960" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="cm-12.1-caf-8960" />
-  <project path="hardware/qcom/audio-caf/msm8226" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="cm-12.1-caf-8226" />
-  <project path="hardware/qcom/audio-caf/msm8610" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="cm-12.1-caf-8610" />
-  <project path="hardware/qcom/audio-caf/msm8974" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="cm-12.1-caf-8974" />
-  <project path="hardware/qcom/audio-caf/msm8916" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="cm-12.1-caf-8916" />
-  <project path="hardware/qcom/bt" name="CyanogenMod/android_hardware_qcom_bt" groups="qcom" revision="cm-12.1" />
-  <project path="hardware/qcom/display" name="CyanogenMod/android_hardware_qcom_display" groups="qcom,qcom_display" revision="cm-12.1" />
-  <project path="hardware/qcom/display-caf/msm8960" name="CyanogenMod/android_hardware_qcom_display" groups="qcom,qcom_display" revision="cm-12.1-caf-8960" />
-  <project path="hardware/qcom/display-caf/msm8226" name="CyanogenMod/android_hardware_qcom_display" groups="qcom,qcom_display" revision="cm-12.1-caf-8226" />
-  <project path="hardware/qcom/display-caf/msm8610" name="CyanogenMod/android_hardware_qcom_display" groups="qcom,qcom_display" revision="cm-12.1-caf-8610" />
-  <project path="hardware/qcom/display-caf/msm8974" name="CyanogenMod/android_hardware_qcom_display" groups="qcom,qcom_display" revision="cm-12.1-caf-8974" />
-  <project path="hardware/qcom/display-caf/msm8916" name="CyanogenMod/android_hardware_qcom_display" groups="qcom,qcom_display" revision="cm-12.1-caf-8916" />
-  <project path="hardware/qcom/gps" name="CyanogenMod/android_hardware_qcom_gps" groups="qcom" revision="cm-12.1" />
-  <project path="hardware/qcom/keymaster" name="CyanogenMod/android_hardware_qcom_keymaster" groups="qcom" revision="cm-12.1" />
-  <project path="hardware/qcom/media/default" name="CyanogenMod/android_hardware_qcom_media" groups="qcom" revision="cm-12.1" />
-  <project path="hardware/qcom/media-caf/msm8960" name="CyanogenMod/android_hardware_qcom_media" groups="qcom" revision="cm-12.1-caf-8960" />
-  <project path="hardware/qcom/media-caf/msm8226" name="CyanogenMod/android_hardware_qcom_media" groups="qcom" revision="cm-12.1-caf-8226" />
-  <project path="hardware/qcom/media-caf/msm8610" name="CyanogenMod/android_hardware_qcom_media" groups="qcom" revision="cm-12.1-caf-8610" />
-  <project path="hardware/qcom/media-caf/msm8974" name="CyanogenMod/android_hardware_qcom_media" groups="qcom" revision="cm-12.1-caf-8974" />
-  <project path="hardware/qcom/media-caf/msm8916" name="CyanogenMod/android_hardware_qcom_media" groups="qcom" revision="cm-12.1-caf-8916" />
+  <project path="hardware/qcom/audio/default" name="Metallium-ROM/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="lp5.1" />
+  <project path="hardware/qcom/audio-caf/msm8960" name="Metallium-ROM/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="lp5.1-caf-8960" />
+  <project path="hardware/qcom/audio-caf/msm8226" name="Metallium-ROM/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="lp5.1-caf-8226" />
+  <project path="hardware/qcom/audio-caf/msm8610" name="Metallium-ROM/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="lp5.1-caf-8610" />
+  <project path="hardware/qcom/audio-caf/msm8974" name="Metallium-ROM/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="lp5.1-caf-8974" />
+  <project path="hardware/qcom/audio-caf/msm8916" name="Metallium-ROM/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="lp5.1-caf-8916" />
+  <project path="hardware/qcom/bt" name="Metallium-ROM/android_hardware_qcom_bt" groups="qcom" revision="lp5.1" />
+  <project path="hardware/qcom/display" name="Metallium-ROM/android_hardware_qcom_display" groups="qcom,qcom_display" revision="lp5.1" />
+  <project path="hardware/qcom/display-caf/msm8960" name="Metallium-ROM/android_hardware_qcom_display" groups="qcom,qcom_display" revision="lp5.1-caf-8960" />
+  <project path="hardware/qcom/display-caf/msm8226" name="Metallium-ROM/android_hardware_qcom_display" groups="qcom,qcom_display" revision="lp5.1-caf-8226" />
+  <project path="hardware/qcom/display-caf/msm8610" name="Metallium-ROM/android_hardware_qcom_display" groups="qcom,qcom_display" revision="lp5.1-caf-8610" />
+  <project path="hardware/qcom/display-caf/msm8974" name="Metallium-ROM/android_hardware_qcom_display" groups="qcom,qcom_display" revision="lp5.1-caf-8974" />
+  <project path="hardware/qcom/display-caf/msm8916" name="Metallium-ROM/android_hardware_qcom_display" groups="qcom,qcom_display" revision="lp5.1-caf-8916" />
+  <project path="hardware/qcom/gps" name="Metallium-ROM/android_hardware_qcom_gps" groups="qcom" revision="lp5.1" />
+  <project path="hardware/qcom/keymaster" name="Metallium-ROM/android_hardware_qcom_keymaster" groups="qcom" revision="lp5.1" />
+  <project path="hardware/qcom/media/default" name="Metallium-ROM/android_hardware_qcom_media" groups="qcom" revision="lp5.1" />
+  <project path="hardware/qcom/media-caf/msm8960" name="Metallium-ROM/android_hardware_qcom_media" groups="qcom" revision="lp5.1-caf-8960" />
+  <project path="hardware/qcom/media-caf/msm8226" name="Metallium-ROM/android_hardware_qcom_media" groups="qcom" revision="lp5.1-caf-8226" />
+  <project path="hardware/qcom/media-caf/msm8610" name="Metallium-ROM/android_hardware_qcom_media" groups="qcom" revision="lp5.1-caf-8610" />
+  <project path="hardware/qcom/media-caf/msm8974" name="Metallium-ROM/android_hardware_qcom_media" groups="qcom" revision="lp5.1-caf-8974" />
+  <project path="hardware/qcom/media-caf/msm8916" name="Metallium-ROM/android_hardware_qcom_media" groups="qcom" revision="lp5.1-caf-8916" />
   <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" groups="qcom_msm8960" remote="aosp" />
   <project path="hardware/qcom/msm8x26" name="platform/hardware/qcom/msm8x26" groups="qcom_msm8x26" remote="aosp" />
   <project path="hardware/qcom/msm8x27" name="platform/hardware/qcom/msm8x27" groups="qcom_msm8x27" remote="aosp" />
@@ -503,12 +503,12 @@
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" remote="aosp" />
   <project path="sdk" name="platform/sdk" groups="pdk-cw-fs" remote="aosp" />
   <project path="system/core" name="Metallium-ROM/android_system_core" groups="pdk" />
-  <project path="system/extras" name="CyanogenMod/android_system_extras" groups="pdk" revision="cm-12.1" />
-  <project path="system/keymaster" name="CyanogenMod/android_system_keymaster" groups="pdk" revision="cm-12.1" />
-  <project path="system/media" name="CyanogenMod/android_system_media" groups="pdk" revision="cm-12.1" />
-  <project path="system/netd" name="CyanogenMod/android_system_netd" groups="pdk" revision="cm-12.1" />
-  <project path="system/qcom" name="CyanogenMod/android_system_qcom" groups="qcom" revision="cm-12.1" />
-  <project path="system/security" name="CyanogenMod/android_system_security" groups="pdk" revision="cm-12.1" />
+  <project path="system/extras" name="Metallium-ROM/android_system_extras" groups="pdk" revision="cm-12.1" />
+  <project path="system/keymaster" name="Metallium-ROM/android_system_keymaster" groups="pdk" revision="cm-12.1" />
+  <project path="system/media" name="Metallium-ROM/android_system_media" groups="pdk" revision="cm-12.1" />
+  <project path="system/netd" name="Metallium-ROM/android_system_netd" groups="pdk" revision="cm-12.1" />
+  <project path="system/qcom" name="Metallium-ROM/android_system_qcom" groups="qcom" revision="cm-12.1" />
+  <project path="system/security" name="Metallium-ROM/android_system_security" groups="pdk" revision="cm-12.1" />
   <project path="system/vold" name="Metallium-ROM/android_system_vold" groups="pdk" />
   <project path="tools/base" name="platform/tools/base" groups="notdefault,tools" remote="aosp" />
   <project path="tools/build" name="platform/tools/build" groups="notdefault,tools" remote="aosp" />
