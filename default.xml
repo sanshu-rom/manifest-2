@@ -503,12 +503,12 @@
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" remote="aosp" />
   <project path="sdk" name="platform/sdk" groups="pdk-cw-fs" remote="aosp" />
   <project path="system/core" name="Metallium-ROM/android_system_core" groups="pdk" />
-  <project path="system/extras" name="Metallium-ROM/android_system_extras" groups="pdk" revision="cm-12.1" />
-  <project path="system/keymaster" name="Metallium-ROM/android_system_keymaster" groups="pdk" revision="cm-12.1" />
-  <project path="system/media" name="Metallium-ROM/android_system_media" groups="pdk" revision="cm-12.1" />
-  <project path="system/netd" name="Metallium-ROM/android_system_netd" groups="pdk" revision="cm-12.1" />
-  <project path="system/qcom" name="Metallium-ROM/android_system_qcom" groups="qcom" revision="cm-12.1" />
-  <project path="system/security" name="Metallium-ROM/android_system_security" groups="pdk" revision="cm-12.1" />
+  <project path="system/extras" name="Metallium-ROM/android_system_extras" groups="pdk" />
+  <project path="system/keymaster" name="Metallium-ROM/android_system_keymaster" groups="pdk" />
+  <project path="system/media" name="Metallium-ROM/android_system_media" groups="pdk" />
+  <project path="system/netd" name="Metallium-ROM/android_system_netd" groups="pdk" />
+  <project path="system/qcom" name="Metallium-ROM/android_system_qcom" groups="qcom" />
+  <project path="system/security" name="Metallium-ROM/android_system_security" groups="pdk" />
   <project path="system/vold" name="Metallium-ROM/android_system_vold" groups="pdk" />
   <project path="tools/base" name="platform/tools/base" groups="notdefault,tools" remote="aosp" />
   <project path="tools/build" name="platform/tools/build" groups="notdefault,tools" remote="aosp" />
