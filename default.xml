@@ -408,7 +408,7 @@
   <project path="packages/apps/InCallUI" name="Metallium-ROM/android_packages_apps_InCallUI" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" remote="aosp" />
   <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" remote="aosp" />
-  <project path="packages/apps/MateonLauncher2" name="Metallium-ROM/android_packages_apps_MateonLauncher2" />
+  <project path="packages/apps/MateonLauncher" name="Metallium-ROM/android_packages_apps_MateonLauncher" />
   <project path="packages/apps/ManagedProvisioning" name="platform/packages/apps/ManagedProvisioning" remote="aosp" />
   <project path="packages/apps/Mms" name="Metallium-ROM/android_packages_apps_Mms" />
   <project path="packages/apps/Nfc" name="Metallium-ROM/android_packages_apps_Nfc" />
