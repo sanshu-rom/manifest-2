@@ -131,7 +131,7 @@
   <project path="external/exfat" name="CyanogenMod/android_external_exfat" groups="pdk" revision="cm-12.1" />
   <project path="external/expat" name="platform/external/expat" groups="pdk" remote="aosp" />
   <project path="external/eyes-free" name="platform/external/eyes-free" groups="pdk-cw-fs" remote="aosp" />
-  <project path="external/f2fs-tools" name="CyanogenMod/android_external_f2fs-tools" groups="pdk" revision="cm-12.1" />
+  <project path="external/f2fs-tools" name="Metallium-ROM/android_external_f2fs-tools" groups="pdk" />
   <project path="external/fdlibm" name="platform/external/fdlibm" groups="pdk" remote="aosp" />
   <project path="external/ffmpeg" name="CyanogenMod/android_external_ffmpeg" revision="cm-12.1" />
   <project path="external/fio" name="platform/external/fio" remote="aosp" />
