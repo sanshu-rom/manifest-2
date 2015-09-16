@@ -495,7 +495,7 @@
   <project path="prebuilts/gradle-plugin" name="platform/prebuilts/gradle-plugin" groups="pdk-cw-fs" remote="aosp" />
   <project path="prebuilts/libs/libedit" name="platform/prebuilts/libs/libedit" groups="pdk-cw-fs" remote="aosp" />
   <project path="prebuilts/misc" name="platform/prebuilts/misc" groups="pdk,tradefed" remote="aosp" />
-  <project path="prebuilts/ndk" name="platform/prebuilts/ndk" groups="pdk" remote="aosp" />
+  <project path="prebuilts/ndk" name="platform/prebuilts/ndk" groups="pdk" remote="aosp" revision="refs/tags/android-5.1.1_r18" />
   <project path="prebuilts/python/darwin-x86/2.7.5" name="platform/prebuilts/python/darwin-x86/2.7.5" groups="darwin,pdk,pdk-cw-fs" remote="aosp" />
   <project path="prebuilts/python/linux-x86/2.7.5" name="platform/prebuilts/python/linux-x86/2.7.5" groups="linux,pdk,pdk-cw-fs" remote="aosp" />
   <project path="prebuilts/qemu-kernel" name="platform/prebuilts/qemu-kernel" groups="pdk" clone-depth="1" remote="aosp" />
