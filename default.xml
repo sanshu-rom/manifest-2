@@ -511,6 +511,7 @@
   <project path="system/qcom" name="Metallium-ROM/android_system_qcom" groups="qcom" />
   <project path="system/security" name="Metallium-ROM/android_system_security" groups="pdk" />
   <project path="system/vold" name="Metallium-ROM/android_system_vold" groups="pdk" />
+  <project path="toolchain/binutils" name="toolchain/binutils" remote="aosp" />
   <project path="tools/base" name="platform/tools/base" groups="notdefault,tools" remote="aosp" />
   <project path="tools/build" name="platform/tools/build" groups="notdefault,tools" remote="aosp" />
   <project path="tools/idea" name="platform/tools/idea" groups="notdefault,tools" remote="aosp" />
