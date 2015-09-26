@@ -392,7 +392,7 @@
   <project path="packages/apps/Bluetooth" name="Metallium-ROM/android_packages_apps_Bluetooth" />
   <project path="packages/apps/BluetoothExt" name="Metallium-ROM/android_packages_apps_BluetoothExt" />
   <project path="packages/apps/Browser" name="Metallium-ROM/android_packages_apps_Browser" />
-  <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" remote="aosp" />
+  <project path="packages/apps/Calculator" name="Metallium-ROM/android_packages_apps_Calculator" />
   <project path="packages/apps/Calendar" name="Metallium-ROM/android_packages_apps_Calendar" />
   <project path="packages/apps/Camera2" name="Metallium-ROM/android_packages_apps_Camera2" />
   <project path="packages/apps/CellBroadcastReceiver" name="Metallium-ROM/android_packages_apps_CellBroadcastReceiver" />
