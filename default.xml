@@ -85,25 +85,25 @@
   <project path="hardware/libhardware_legacy" name="Metallium-ROM/android_hardware_libhardware_legacy" groups="pdk" />
   <project path="hardware/qcom/audio/default" name="Metallium-ROM/android_hardware_qcom_audio" groups="qcom,qcom_audio" />
   <project path="hardware/qcom/audio-caf/apq8084" name="Metallium-ROM/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="lp5.1-caf-8084" />
-  <project path="hardware/qcom/audio-caf/msm8916" name="Metallium-ROM/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="lp5.1-caf-8916" />
+  <project path="hardware/qcom/audio-caf/msm8916" name="Metallium-ROM/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="mm6.0-caf-8916" />
   <project path="hardware/qcom/audio-caf/msm8960" name="Metallium-ROM/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="lp5.1-caf-8960" />
-  <project path="hardware/qcom/audio-caf/msm8974" name="Metallium-ROM/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="lp5.1-caf-8974" />
-  <project path="hardware/qcom/audio-caf/msm8994" name="Metallium-ROM/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="lp5.1-caf-8994" />
+  <project path="hardware/qcom/audio-caf/msm8974" name="Metallium-ROM/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="mm6.0-caf-8974" />
+  <project path="hardware/qcom/audio-caf/msm8994" name="Metallium-ROM/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="mm6.0-caf-8994" />
   <project path="hardware/qcom/bt" name="Metallium-ROM/android_hardware_qcom_bt" groups="qcom" />
   <project path="hardware/qcom/display" name="Metallium-ROM/android_hardware_qcom_display" groups="qcom,qcom_display" />
   <project path="hardware/qcom/display-caf/apq8084" name="Metallium-ROM/android_hardware_qcom_display" groups="qcom,qcom_display" revision="lp5.1-caf-8084" />
-  <project path="hardware/qcom/display-caf/msm8916" name="Metallium-ROM/android_hardware_qcom_display" groups="qcom,qcom_display" revision="lp5.1-caf-8916" />
+  <project path="hardware/qcom/display-caf/msm8916" name="Metallium-ROM/android_hardware_qcom_display" groups="qcom,qcom_display" revision="mm6.0-caf-8916" />
   <project path="hardware/qcom/display-caf/msm8960" name="Metallium-ROM/android_hardware_qcom_display" groups="qcom,qcom_display" revision="lp5.1-caf-8960" />
-  <project path="hardware/qcom/display-caf/msm8974" name="Metallium-ROM/android_hardware_qcom_display" groups="qcom,qcom_display" revision="lp5.1-caf-8974" />
-  <project path="hardware/qcom/display-caf/msm8994" name="Metallium-ROM/android_hardware_qcom_display" groups="qcom,qcom_display" revision="lp5.1-caf-8994" />
+  <project path="hardware/qcom/display-caf/msm8974" name="Metallium-ROM/android_hardware_qcom_display" groups="qcom,qcom_display" revision="mm6.0-caf-8974" />
+  <project path="hardware/qcom/display-caf/msm8994" name="Metallium-ROM/android_hardware_qcom_display" groups="qcom,qcom_display" revision="mm6.0-caf-8994" />
   <project path="hardware/qcom/gps" name="Metallium-ROM/android_hardware_qcom_gps" groups="qcom" />
   <project path="hardware/qcom/keymaster" name="Metallium-ROM/android_hardware_qcom_keymaster" groups="qcom" />
   <project path="hardware/qcom/media/default" name="Metallium-ROM/android_hardware_qcom_media" groups="qcom" />
   <project path="hardware/qcom/media-caf/apq8084" name="Metallium-ROM/android_hardware_qcom_media" groups="qcom" revision="lp5.1-caf-8084" />
-  <project path="hardware/qcom/media-caf/msm8916" name="Metallium-ROM/android_hardware_qcom_media" groups="qcom" revision="lp5.1-caf-8916" />
+  <project path="hardware/qcom/media-caf/msm8916" name="Metallium-ROM/android_hardware_qcom_media" groups="qcom" revision="mm6.0-caf-8916" />
   <project path="hardware/qcom/media-caf/msm8960" name="Metallium-ROM/android_hardware_qcom_media" groups="qcom" revision="lp5.1-caf-8960" />
-  <project path="hardware/qcom/media-caf/msm8974" name="Metallium-ROM/android_hardware_qcom_media" groups="qcom" revision="lp5.1-caf-8974" />
-  <project path="hardware/qcom/media-caf/msm8994" name="Metallium-ROM/android_hardware_qcom_media" groups="qcom" revision="lp5.1-caf-8994" />
+  <project path="hardware/qcom/media-caf/msm8974" name="Metallium-ROM/android_hardware_qcom_media" groups="qcom" revision="mm6.0-caf-8974" />
+  <project path="hardware/qcom/media-caf/msm8994" name="Metallium-ROM/android_hardware_qcom_media" groups="qcom" revision="mm6.0-caf-8994" />
   <project path="hardware/qcom/wlan" name="Metallium-ROM/android_hardware_qcom_wlan" groups="qcom_wlan" />
   <project path="hardware/ril" name="Metallium-ROM/android_hardware_ril" groups="pdk" />
   <project path="hardware/ril-caf" name="Metallium-ROM/android_hardware_ril" groups="pdk" revision="lp5.1-caf" />
