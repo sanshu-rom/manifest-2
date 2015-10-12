@@ -183,7 +183,6 @@
   <project path="external/boringssl" name="CyanogenMod/android_external_boringssl" revision="cm-13.0" />
   <project path="external/bouncycastle" name="CyanogenMod/android_external_bouncycastle" revision="cm-13.0" />
   <project path="external/bson" name="CyanogenMod/android_external_bson" revision="cm-13.0" />
-  <project path="external/connectivity" name="CyanogenMod/android_external_connectivity" revision="cm-13.0" />
   <project path="external/dhcpcd" name="CyanogenMod/android_external_dhcpcd" groups="pdk-cw-fs" revision="cm-13.0" />
   <project path="external/dnsmasq" name="CyanogenMod/android_external_dnsmasq" groups="pdk" revision="cm-13.0" />
   <project path="external/dropbear" name="CyanogenMod/android_external_dropbear" revision="cm-13.0" />
