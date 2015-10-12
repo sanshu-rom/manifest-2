@@ -158,6 +158,7 @@
   <project path="packages/services/Mms" name="Metallium-ROM/android_packages_services_Mms" />
   <project path="packages/services/Telecomm" name="Metallium-ROM/android_packages_services_Telecomm" />
   <project path="packages/services/Telephony" name="Metallium-ROM/android_packages_services_Telephony" />
+  <project path="system/bt" name="Metallium-ROM/android_system_bt" groups="pdk" remote="aosp" />
   <project path="system/core" name="Metallium-ROM/android_system_core" groups="pdk" />
   <project path="system/extras" name="Metallium-ROM/android_system_extras" groups="pdk" />
   <project path="system/keymaster" name="Metallium-ROM/android_system_keymaster" groups="pdk" />
@@ -515,7 +516,6 @@
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk" remote="aosp" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" remote="aosp" />
   <project path="sdk" name="platform/sdk" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-  <project path="system/bt" name="platform/system/bt" groups="pdk" remote="aosp" />
   <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="pdk" remote="aosp" />
 <!-- END AOSP -->
 
