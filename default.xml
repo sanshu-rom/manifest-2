@@ -170,6 +170,8 @@
     <copyfile src="build.sh" dest="rom-build.sh" />
   </project>
 
+  <project path="vendor/qcom/opensource/display-frameworks" name="Metallium-ROM/android_vendor_qcom_opensource_display-frameworks" />
+
 <!-- CyanogenMod -->
 
   <project path="cts" name="CyanogenMod/android_cts" groups="cts,pdk-cw-fs" revision="cm-13.0"  />
