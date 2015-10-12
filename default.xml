@@ -65,6 +65,7 @@
   <project path="external/square/dagger" name="Metallium-ROM/android_external_square_dagger" />
   <project path="external/square/javawriter" name="Metallium-ROM/android_external_square_javawriter" />
   <project path="external/stagefright-plugins" name="Metallium-ROM/android_external_stagefright-plugins" />
+  <project path="external/tinyxml2" name="Metallium-ROM/android_external_tinyxml2" groups="pdk" />
   <project path="external/unrar" name="Metallium-ROM/android_external_unrar" />
   <project path="external/vim" name="Metallium-ROM/android_external_vim" />
   <project path="external/wpa_supplicant_8" name="Metallium-ROM/android_external_wpa_supplicant_8" groups="pdk" />
@@ -124,6 +125,7 @@
   <project path="packages/apps/Dialer" name="Metallium-ROM/android_packages_apps_Dialer" />
   <project path="packages/apps/Email" name="Metallium-ROM/android_packages_apps_Email" />
   <project path="packages/apps/Exchange" name="Metallium-ROM/android_packages_apps_Exchange" />
+  <project path="packages/apps/FMRadio" name="Metallium-ROM/android_packages_apps_FMRadio" groups="pdk-fs" />
   <project path="packages/apps/Gallery2" name="Metallium-ROM/android_packages_apps_Gallery2" />
   <project path="packages/apps/HTMLViewer" name="Metallium-ROM/android_packages_apps_HTMLViewer" />
   <project path="packages/apps/InCallUI" name="Metallium-ROM/android_packages_apps_InCallUI" />
@@ -406,8 +408,6 @@
   <project path="external/svox" name="platform/external/svox" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/tagsoup" name="platform/external/tagsoup" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/timezonepicker-support" name="platform/external/timezonepicker-support" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-  <project path="external/tinyxml" name="platform/external/tinyxml" groups="pdk" remote="aosp" />
-  <project path="external/tinyxml2" name="platform/external/tinyxml2" groups="pdk" remote="aosp" />
   <project path="external/toybox" name="platform/external/toybox" groups="pdk" remote="aosp" />
   <project path="external/tremolo" name="platform/external/tremolo" groups="pdk" remote="aosp" />
   <project path="external/v8" name="platform/external/v8" groups="pdk" remote="aosp" />
@@ -474,7 +474,6 @@
   <project path="ndk" name="platform/ndk" groups="generic_fs" remote="aosp" />
   <project path="packages/apps/CarrierConfig" name="platform/packages/apps/CarrierConfig" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/ExactCalculator" name="platform/packages/apps/ExactCalculator" groups="pdk-fs" remote="aosp" />
-  <project path="packages/apps/FMRadio" name="platform/packages/apps/FMRadio" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/Phone" name="platform/packages/apps/Phone" groups="pdk-fs" remote="aosp" />
   <project path="packages/inputmethods/OpenWnn" name="platform/packages/inputmethods/OpenWnn" remote="aosp" />
