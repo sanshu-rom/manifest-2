@@ -43,30 +43,22 @@
   <project path="external/jsr305" name="Metallium-ROM/android_external_jsr305" groups="pdk-cw-fs,tradefed" />
   <project path="external/jsr308" name="Metallium-ROM/android_external_jsr308" />
   <project path="external/jsr330" name="Metallium-ROM/android_external_jsr330" />
-  <project path="external/koush/AndroidAsync" name="Metallium-ROM/AndroidAsync" />
-  <project path="external/koush/ion" name="Metallium-ROM/ion" />
   <project path="external/libnfc-nci" name="Metallium-ROM/android_external_libnfc-nci" groups="pdk" />
   <project path="external/libnfc-nxp" name="Metallium-ROM/android_external_libnfc-nxp" groups="pdk" />
   <project path="external/libselinux" name="Metallium-ROM/android_external_libselinux" groups="pdk" />
-  <project path="external/libtar" name="Metallium-ROM/android_external_libtar" />
   <project path="external/libusb" name="Metallium-ROM/android_external_libusb" groups="pdk-cw-fs" />
   <project path="external/libusbx" name="Metallium-ROM/android_external_libusbx" />
   <project path="external/libvterm" name="Metallium-ROM/android_external_libvterm" />
-  <project path="external/libtruezip" name="Metallium-ROM/android_external_libtruezip" />
   <project path="external/lzma" name="Metallium-ROM/android_external_lzma" />
   <project path="external/nano" name="Metallium-ROM/android_external_nano" />
   <project path="external/ntfs-3g" name="Metallium-ROM/android_external_ntfs-3g" />
-  <project path="external/okhttp" name="Metallium-ROM/android_external_okhttp" groups="pdk-cw-fw" />
+  <project path="external/okhttp" name="Metallium-ROM/android_external_okhttp" groups="pdk-cw-fw" /> 
   <project path="external/sepolicy" name="Metallium-ROM/android_external_sepolicy" groups="pdk" />
-  <project path="external/selinux" name="Metallium-ROM/android_external_selinux" groups="pdk" remote="aosp" />
   <project path="external/skia" name="Metallium-ROM/android_external_skia" groups="pdk-cw-fs,qcom_msm8x26" />
   <project path="external/sonivox" name="Metallium-ROM/android_external_sonivox" groups="pdk" />
   <project path="external/sqlite" name="Metallium-ROM/android_external_sqlite" groups="pdk" />
-  <project path="external/square/dagger" name="Metallium-ROM/android_external_square_dagger" />
-  <project path="external/square/javawriter" name="Metallium-ROM/android_external_square_javawriter" />
   <project path="external/stagefright-plugins" name="Metallium-ROM/android_external_stagefright-plugins" />
   <project path="external/tinyxml2" name="Metallium-ROM/android_external_tinyxml2" groups="pdk" />
-  <project path="external/unrar" name="Metallium-ROM/android_external_unrar" />
   <project path="external/vim" name="Metallium-ROM/android_external_vim" />
   <project path="external/wpa_supplicant_8" name="Metallium-ROM/android_external_wpa_supplicant_8" groups="pdk" />
   <project path="frameworks/av" name="Metallium-ROM/android_frameworks_av" groups="pdk" />
@@ -118,25 +110,18 @@
   <project path="packages/apps/Calendar" name="Metallium-ROM/android_packages_apps_Calendar" />
   <project path="packages/apps/Camera2" name="Metallium-ROM/android_packages_apps_Camera2" />
   <project path="packages/apps/CellBroadcastReceiver" name="Metallium-ROM/android_packages_apps_CellBroadcastReceiver" />
-  <project path="packages/apps/CertInstaller" name="Metallium-ROM/android_packages_apps_CertInstaller" />
   <project path="packages/apps/Contacts" name="Metallium-ROM/android_packages_apps_Contacts" />
   <project path="packages/apps/ContactsCommon" name="Metallium-ROM/android_packages_apps_ContactsCommon" />
-  <project path="packages/apps/DeskClock" name="Metallium-ROM/android_packages_apps_DeskClock" />
   <project path="packages/apps/Dialer" name="Metallium-ROM/android_packages_apps_Dialer" />
   <project path="packages/apps/Email" name="Metallium-ROM/android_packages_apps_Email" />
   <project path="packages/apps/Exchange" name="Metallium-ROM/android_packages_apps_Exchange" />
   <project path="packages/apps/FMRadio" name="Metallium-ROM/android_packages_apps_FMRadio" groups="pdk-fs" />
   <project path="packages/apps/Gallery2" name="Metallium-ROM/android_packages_apps_Gallery2" />
-  <project path="packages/apps/HTMLViewer" name="Metallium-ROM/android_packages_apps_HTMLViewer" />
   <project path="packages/apps/InCallUI" name="Metallium-ROM/android_packages_apps_InCallUI" />
-  <project path="packages/apps/KeyChain" name="Metallium-ROM/android_packages_apps_KeyChain" />
-  <project path="packages/apps/ManagedProvisioning" name="Metallium-ROM/android_packages_apps_ManagedProvisioning" />
   <project path="packages/apps/Mms" name="Metallium-ROM/android_packages_apps_Mms-caf" />
   <project path="packages/apps/Nfc" name="Metallium-ROM/android_packages_apps_Nfc" />
-  <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" remote="aosp" />
   <project path="packages/apps/PackageInstaller" name="Metallium-ROM/android_packages_apps_PackageInstaller" />
   <project path="packages/apps/PhoneCommon" name="Metallium-ROM/android_packages_apps_PhoneCommon" />
-  <project path="packages/apps/Provision" name="Metallium-ROM/android_packages_apps_Provision" />
   <project path="packages/apps/Settings" name="Metallium-ROM/android_packages_apps_Settings" />
   <project path="packages/apps/SmartCardService" name="Metallium-ROM/android_packages_apps_SmartCardService" />
   <project path="packages/apps/SoundRecorder" name="Metallium-ROM/android_packages_apps_SoundRecorder" />
@@ -146,17 +131,12 @@
   <project path="packages/apps/Terminal" name="Metallium-ROM/android_packages_apps_Terminal" />
   <project path="packages/apps/MateonLauncher" name="Metallium-ROM/android_packages_apps_MateonLauncher" />
   <project path="packages/apps/UnifiedEmail" name="Metallium-ROM/android_packages_apps_UnifiedEmail" />
-  <project path="packages/experimental" name="Metallium-ROM/android_packages_experimental" />
   <project path="packages/inputmethods/LatinIME" name="Metallium-ROM/android_packages_inputmethods_LatinIME" />
   <project path="packages/providers/CalendarProvider" name="Metallium-ROM/android_packages_providers_CalendarProvider" />
   <project path="packages/providers/ContactsProvider" name="Metallium-ROM/android_packages_providers_ContactsProvider" />
   <project path="packages/providers/DownloadProvider" name="Metallium-ROM/android_packages_providers_DownloadProvider" />
   <project path="packages/providers/MediaProvider" name="Metallium-ROM/android_packages_providers_MediaProvider" />
   <project path="packages/providers/TelephonyProvider" name="Metallium-ROM/android_packages_providers_TelephonyProvider" />
-  <project path="packages/providers/TvProvider" name="Metallium-ROM/android_packages_providers_TvProvider" />
-  <project path="packages/providers/UserDictionaryProvider" name="Metallium-ROM/android_packages_providers_UserDictionaryProvider" />
-  <project path="packages/screensavers/Basic" name="Metallium-ROM/android_packages_screensavers_Basic" />
-  <project path="packages/screensavers/WebView" name="Metallium-ROM/android_packages_screensavers_WebView" />
   <project path="packages/services/Mms" name="Metallium-ROM/android_packages_services_Mms" />
   <project path="packages/services/Telecomm" name="Metallium-ROM/android_packages_services_Telecomm" />
   <project path="packages/services/Telephony" name="Metallium-ROM/android_packages_services_Telephony" />
@@ -400,6 +380,7 @@
   <project path="external/roboto-fonts" name="platform/external/roboto-fonts" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/safe-iop" name="platform/external/safe-iop" groups="pdk" remote="aosp" />
   <project path="external/scrypt" name="platform/external/scrypt" groups="pdk" remote="aosp" />
+  <project path="external/selinux" name="platform/external/selinux" groups="pdk" remote="aosp" />
   <project path="external/sfntly" name="platform/external/sfntly" groups="pdk,qcom_msm8x26" remote="aosp" />
   <project path="external/slf4j" name="platform/external/slf4j" groups="pdk-fs" remote="aosp" />
   <project path="external/smali" name="platform/external/smali" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
@@ -475,14 +456,26 @@
   <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" groups="qcom" remote="aosp" />
   <project path="ndk" name="platform/ndk" groups="generic_fs" remote="aosp" />
   <project path="packages/apps/CarrierConfig" name="platform/packages/apps/CarrierConfig" groups="pdk-fs" remote="aosp" />
+  <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" groups="pdk-fs" remote="aosp" />  
+  <project path="packages/apps/DeskClock" name="platform/packages/apps/DeskClock" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/ExactCalculator" name="platform/packages/apps/ExactCalculator" groups="pdk-fs" remote="aosp" />
+  <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" groups="pdk-fs" remote="aosp" />
+  <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" groups="pdk-fs" remote="aosp" />
+  <project path="packages/apps/ManagedProvisioning" name="platform/packages/apps/ManagedProvisioning" groups="pdk-fs" remote="aosp" />
+  <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" remote="aosp" />
   <project path="packages/apps/Phone" name="platform/packages/apps/Phone" groups="pdk-fs" remote="aosp" />
+  <project path="packages/apps/Provision" name="platform/packages/apps/Provision" groups="pdk-fs" remote="aosp" />
+  <project path="packages/experimental" name="platform/packages/experimental" groups="pdk-fs" remote="aosp" />  
   <project path="packages/inputmethods/OpenWnn" name="platform/packages/inputmethods/OpenWnn" remote="aosp" />
   <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" remote="aosp" />
   <project path="packages/providers/BookmarkProvider" name="platform/packages/providers/BookmarkProvider" groups="pdk-fs" remote="aosp" />
   <project path="packages/providers/CallLogProvider" name="platform/packages/providers/CallLogProvider" groups="pdk-fs" remote="aosp" />
-  <project path="packages/providers/PartnerBookmarksProvider" name="platform/packages/providers/PartnerBookmarksProvider" remote="aosp" />  
+  <project path="packages/providers/PartnerBookmarksProvider" name="platform/packages/providers/PartnerBookmarksProvider" remote="aosp" />
+  <project path="packages/providers/TvProvider" name="platform/packages/providers/TvProvider" remote="aosp" remote="aosp" />
+  <project path="packages/providers/UserDictionaryProvider" name="platform/packages/providers/UserDictionaryProvider" remote="aosp" />
+  <project path="packages/screensavers/Basic" name="platform/packages/screensavers/Basic" remote="aosp" />
+  <project path="packages/screensavers/WebView" name="platform/packages/screensavers/WebView" remote="aosp" /> 
   <project path="pdk" name="platform/pdk" groups="pdk" remote="aosp" />
   <project path="platform_testing" name="platform/platform_testing" remote="aosp" />
   <project path="packages/wallpapers/Basic" name="platform/packages/wallpapers/Basic" remote="aosp" />
