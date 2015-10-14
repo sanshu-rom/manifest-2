@@ -76,25 +76,25 @@
   <project path="hardware/libhardware" name="Metallium-ROM/android_hardware_libhardware" groups="pdk" />
   <project path="hardware/libhardware_legacy" name="Metallium-ROM/android_hardware_libhardware_legacy" groups="pdk" />
   <project path="hardware/qcom/audio/default" name="Metallium-ROM/android_hardware_qcom_audio" groups="qcom,qcom_audio" />
-  <project path="hardware/qcom/audio-caf/apq8084" name="Metallium-ROM/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="lp5.1-caf-8084" />
+  <project path="hardware/qcom/audio-caf/apq8084" name="Metallium-ROM/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="mm6.0-caf-8084" />
   <project path="hardware/qcom/audio-caf/msm8916" name="Metallium-ROM/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="mm6.0-caf-8916" />
-  <project path="hardware/qcom/audio-caf/msm8960" name="Metallium-ROM/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="lp5.1-caf-8960" />
+  <project path="hardware/qcom/audio-caf/msm8960" name="Metallium-ROM/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="mm6.0-caf-8960" />
   <project path="hardware/qcom/audio-caf/msm8974" name="Metallium-ROM/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="mm6.0-caf-8974" />
   <project path="hardware/qcom/audio-caf/msm8994" name="Metallium-ROM/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="mm6.0-caf-8994" />
   <project path="hardware/qcom/bt" name="Metallium-ROM/android_hardware_qcom_bt" groups="qcom" />
   <project path="hardware/qcom/camera" name="Metallium-ROM/android_hardware_qcom_camera" groups="qcom" />
   <project path="hardware/qcom/display" name="Metallium-ROM/android_hardware_qcom_display" groups="qcom,qcom_display" />
-  <project path="hardware/qcom/display-caf/apq8084" name="Metallium-ROM/android_hardware_qcom_display" groups="qcom,qcom_display" revision="lp5.1-caf-8084" />
+  <project path="hardware/qcom/display-caf/apq8084" name="Metallium-ROM/android_hardware_qcom_display" groups="qcom,qcom_display" revision="mm6.0-caf-8084" />
   <project path="hardware/qcom/display-caf/msm8916" name="Metallium-ROM/android_hardware_qcom_display" groups="qcom,qcom_display" revision="mm6.0-caf-8916" />
-  <project path="hardware/qcom/display-caf/msm8960" name="Metallium-ROM/android_hardware_qcom_display" groups="qcom,qcom_display" revision="lp5.1-caf-8960" />
+  <project path="hardware/qcom/display-caf/msm8960" name="Metallium-ROM/android_hardware_qcom_display" groups="qcom,qcom_display" revision="mm6.0-caf-8960" />
   <project path="hardware/qcom/display-caf/msm8974" name="Metallium-ROM/android_hardware_qcom_display" groups="qcom,qcom_display" revision="mm6.0-caf-8974" />
   <project path="hardware/qcom/display-caf/msm8994" name="Metallium-ROM/android_hardware_qcom_display" groups="qcom,qcom_display" revision="mm6.0-caf-8994" />
   <project path="hardware/qcom/gps" name="Metallium-ROM/android_hardware_qcom_gps" groups="qcom" />
   <project path="hardware/qcom/keymaster" name="Metallium-ROM/android_hardware_qcom_keymaster" groups="qcom" />
   <project path="hardware/qcom/media/default" name="Metallium-ROM/android_hardware_qcom_media" groups="qcom" />
-  <project path="hardware/qcom/media-caf/apq8084" name="Metallium-ROM/android_hardware_qcom_media" groups="qcom" revision="lp5.1-caf-8084" />
+  <project path="hardware/qcom/media-caf/apq8084" name="Metallium-ROM/android_hardware_qcom_media" groups="qcom" revision="mm6.0-caf-8084" />
   <project path="hardware/qcom/media-caf/msm8916" name="Metallium-ROM/android_hardware_qcom_media" groups="qcom" revision="mm6.0-caf-8916" />
-  <project path="hardware/qcom/media-caf/msm8960" name="Metallium-ROM/android_hardware_qcom_media" groups="qcom" revision="lp5.1-caf-8960" />
+  <project path="hardware/qcom/media-caf/msm8960" name="Metallium-ROM/android_hardware_qcom_media" groups="qcom" revision="mm6.0-caf-8960" />
   <project path="hardware/qcom/media-caf/msm8974" name="Metallium-ROM/android_hardware_qcom_media" groups="qcom" revision="mm6.0-caf-8974" />
   <project path="hardware/qcom/media-caf/msm8994" name="Metallium-ROM/android_hardware_qcom_media" groups="qcom" revision="mm6.0-caf-8994" />
   <project path="hardware/qcom/wlan" name="Metallium-ROM/android_hardware_qcom_wlan" groups="qcom_wlan" />
@@ -140,7 +140,7 @@
   <project path="packages/services/Mms" name="Metallium-ROM/android_packages_services_Mms" />
   <project path="packages/services/Telecomm" name="Metallium-ROM/android_packages_services_Telecomm" />
   <project path="packages/services/Telephony" name="Metallium-ROM/android_packages_services_Telephony" />
-  <project path="system/bt" name="Metallium-ROM/android_system_bt" groups="pdk" remote="aosp" />
+  <project path="system/bt" name="Metallium-ROM/android_system_bt" groups="pdk" />
   <project path="system/core" name="Metallium-ROM/android_system_core" groups="pdk" />
   <project path="system/extras" name="Metallium-ROM/android_system_extras" groups="pdk" />
   <project path="system/keymaster" name="Metallium-ROM/android_system_keymaster" groups="pdk" />
@@ -222,7 +222,6 @@
   <project path="developers/demos" name="platform/developers/demos" remote="aosp" />
   <project path="developers/docs" name="platform/developers/docs" remote="aosp" />
   <project path="developers/samples/android" name="platform/developers/samples/android" remote="aosp" />
-  <project path="device/common" name="device/common" groups="pdk-cw-fs" remote="aosp" />
   <project path="device/generic/arm64" name="device/generic/arm64" groups="pdk" remote="aosp" />
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" groups="pdk" remote="aosp" />
   <project path="device/generic/common" name="device/generic/common" groups="pdk" remote="aosp" />
@@ -246,7 +245,6 @@
   <project path="external/antlr" name="platform/external/antlr" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/apache-commons-math" name="platform/external/apache-commons-math" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/apache-harmony" name="platform/external/apache-harmony" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-  <project path="external/apache-http" name="platform/external/apache-http" groups="pdk" remote="aosp" />
   <project path="external/apache-xml" name="platform/external/apache-xml" groups="pdk" remote="aosp" />
   <project path="external/bison" name="platform/external/bison" groups="pdk" remote="aosp" />
   <project path="external/blktrace" name="platform/external/blktrace" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
@@ -472,7 +470,7 @@
   <project path="packages/providers/BookmarkProvider" name="platform/packages/providers/BookmarkProvider" groups="pdk-fs" remote="aosp" />
   <project path="packages/providers/CallLogProvider" name="platform/packages/providers/CallLogProvider" groups="pdk-fs" remote="aosp" />
   <project path="packages/providers/PartnerBookmarksProvider" name="platform/packages/providers/PartnerBookmarksProvider" remote="aosp" />
-  <project path="packages/providers/TvProvider" name="platform/packages/providers/TvProvider" remote="aosp" remote="aosp" />
+  <project path="packages/providers/TvProvider" name="platform/packages/providers/TvProvider" remote="aosp" />
   <project path="packages/providers/UserDictionaryProvider" name="platform/packages/providers/UserDictionaryProvider" remote="aosp" />
   <project path="packages/screensavers/Basic" name="platform/packages/screensavers/Basic" remote="aosp" />
   <project path="packages/screensavers/WebView" name="platform/packages/screensavers/WebView" remote="aosp" /> 
