@@ -8,6 +8,9 @@
 
   <remote  name="github"
            fetch="https://github.com" />
+          
+  <remote  name="device"
+           fetch="https://github.com/Metallium-Devices" />
 
   <remote  name="blobs"
            fetch="https://github.com/Metallium-Kitchen" />
