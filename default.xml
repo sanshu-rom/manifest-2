@@ -9,7 +9,7 @@
   <remote  name="github"
            fetch="https://github.com" />
           
-  <remote  name="device"
+  <remote  name="devices"
            fetch="https://github.com/Metallium-Devices" />
 
   <remote  name="blobs"
