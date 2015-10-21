@@ -9,14 +9,6 @@
   <remote  name="github"
            fetch="https://github.com" />
            
-  <remote  name="device"
-           fetch="https://github.com/Metallium-Devices"
-           revision="refs/heads/mm6.0"/>
-  
-  <remote  name="kitchen"
-           fetch="https://github.com/Metallium-Kitchen"
-           revision="refs/heads/mm6.0"/>         
-           
   <default revision="refs/heads/mm6.0"
            remote="github"
            sync-c="true"
