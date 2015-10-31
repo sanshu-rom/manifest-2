@@ -12,6 +12,9 @@
   <remote  name="blobs"
            fetch="https://github.com/Metallium-Kitchen" />
            
+  <remote  name="devices"
+           fetch="https://github.com/Metallium-Devices" />
+           
   <default revision="refs/heads/mm6.0"
            remote="github"
            sync-c="true"
