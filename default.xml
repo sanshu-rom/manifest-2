@@ -41,7 +41,6 @@
   <project path="frameworks/base" name="Metallium-ROM/android_frameworks_base" remote="github" revision="android-6.0" />
   <project path="frameworks/native" name="Metallium-ROM/android_frameworks_native" remote="github" revision="android-6.0" />
   <project path="frameworks/opt/bluetooth" name="Metallium-ROM/android_frameworks_opt_bluetooth" remote="github" revision="android-6.0" groups="pdk-cw-fs" />
-  <project path="frameworks/opt/cards" name="Metallium-ROM/android_frameworks_opt_cards" remote="github" revision="android-6.0" />
   <project path="frameworks/opt/hardware" name="Metallium-ROM/android_frameworks_opt_hardware" remote="github" revision="android-6.0" />
   <project path="frameworks/opt/datetimepicker" name="Metallium-ROM/android_frameworks_opt_datetimepicker" remote="github" revision="android-6.0" />
   <project path="frameworks/opt/net/ims" name="Metallium-ROM/android_frameworks_opt_net_ims" remote="github" revision="android-6.0" groups="frameworks_ims,pdk-cw-fs,pdk-fs" />
